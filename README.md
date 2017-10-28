@@ -5,4 +5,4 @@ Requires libzip and librtlsdr.
 
 Usage:
 
-~~~~Usage: ./rtl_sampler frequency [sample rate]~~~~
+`./rtl_sampler frequency [sample rate]`
