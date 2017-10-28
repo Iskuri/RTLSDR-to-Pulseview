@@ -1,0 +1,12 @@
+[global]
+sigrok version=0.6.0-git-86a1571
+
+[device 1]
+capturefile=logic-1
+total probes=8
+samplerate=200 kHz
+total analog=2
+probe1=D0
+analog9=A0
+analog10=A1
+unitsize=1
