@@ -307,7 +307,7 @@ int main(int argc, char** argv) {
 
 	rtlsdr_set_sample_rate(dev, sampleRate);
 
-    rtlsdr_reset_buffer(dev);
+	rtlsdr_reset_buffer(dev);
 
 	rtlsdr_read_async(dev, buffCallback, NULL,
 		12,
